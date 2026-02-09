@@ -1,4 +1,4 @@
-EC2 = Elastic Compute Cloud = Infrastructure as a Service
+# EC2 = Elastic Compute Cloud = Infrastructure as a Service
 
 - Virtual machines EC2
 - Storing virtual drives EBS
@@ -6,6 +6,7 @@ EC2 = Elastic Compute Cloud = Infrastructure as a Service
 - Scaling the service using an auto-scaling group ASG
 
 config opt
+
 - OS: Linux, windows and mac
 - CPU
 - RAM
@@ -15,8 +16,6 @@ config opt
 - Bootstrap script (configure at first launch): EC2 User Data
 
 Boostrap Script: Launching script at the boot of machine, only run once when 1st start. Runs with the root user
-
-
 
 Key pair to login in the EC2 required.
 
@@ -47,8 +46,6 @@ for example m5.2xlarge
 m: instance class
 5: generation
 2xlarge: size
-
-
 
 Security Groups are "firewall" on EC2
     - Access ports
